@@ -1,0 +1,16 @@
+fl=<local/path>
+pl="${fl}/projects" # Projects Local
+nl="${fl}/notes/" # Notes Local
+il="${fl}/notes/inbox.md" # Inbox Local
+jl="${fl}/notes/inbox.md" # Journal Local
+
+fm=<machine/local/path> # Files Machine
+pm="${fm}/projects" # Projects Machine
+
+f="${fm}/Dropbox/"
+p="${f}/projects/"
+n="${f}/notes/"
+
+export t="${fm}/Dropbox/notes/todo.txt"
+export i="${fm}/Dropbox/notes/inbox.md"
+export j="${fm}/Dropbox/notes/journal.md"

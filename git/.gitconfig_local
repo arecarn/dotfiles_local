@@ -1,0 +1,8 @@
+[user]
+    email = ryan.carney@<local>.com
+
+[includeIf "gitdir:</some/local/path/to/personal/files>"]
+    path = ~/.gitconfig_personal
+
+[includeIf "gitdir:~/dotfiles/"]
+    path = ~/.gitconfig_personal

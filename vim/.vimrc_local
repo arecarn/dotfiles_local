@@ -1,0 +1,16 @@
+let $t = '/<some/local/path>/Dropbox/notes/todo.txt'
+let $i = '/<some/local/path>/Dropbox/notes/inbox.md'
+let $j = '/<some/local/path>/Dropbox/notes/journal.md'
+
+cnoremap ~f <some/local/path/to/private/files>/Dropbox
+cnoremap ~p <some/local/path/to/private/files>/Dropbox/projects
+cnoremap ~n <some/local/path/to/private/files>/Dropbox/notes
+
+cnoremap ~fl <some/local/path>
+cnoremap ~pl <some/local/path>/projects
+cnoremap ~nl <some/local/path>/notes
+let $il = '<some/local/path>/notes/inbox.md'
+let $jl = '<some/local/path>/notes/journal.md'
+
+cnoremap ~fm <some/machine/local/path>
+cnoremap ~pm <some/machine/local/path>/projects
